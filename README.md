@@ -15,7 +15,7 @@ Site `docs/` klasöründedir. HTML, CSS ve JavaScript dosyaları doğrudan düze
 
 ## GitHub Pages
 
-Settings → Pages → Source: GitHub Actions. `main` güncellemeleri otomatik yayınlanır. Alternatif olarak Deploy from a branch → main → /docs seçilebilir.
+Settings → Pages → Source: Deploy from a branch → Branch: main → Folder: /docs → Save. Bu ayar yapıldıktan sonra `main` güncellemeleri otomatik yayınlanır.
 
 Yerel önizleme için üst klasörde `bilimkultur` adlı bir klasöre `docs/` içeriğini kopyalayın ve üst klasörde `python -m http.server 8000` çalıştırın. `/bilimkultur/` adresini açın.
 
